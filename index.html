@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="start-container">
+        <form class="start-inner">
+            <div class="player-1">
+                <label for="namep1">Player 1 Name:</label>
+                <input type="text" id="namep1">
+            </div>
+
+            <div class="player-2">
+                <label for="namep1">Player 2 Name:</label>
+                <input type="text" id="namep2">
+            </div>
+
+            <button type="submit" class="start-game">Start</button>
+        </form>
+    </div>
+
+    <p class="player-turn"></p>
+    <div class="board x">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+
+    <div class="winner hidden">
+        <div class="winner-inner">
+            <h2 class="winner-text"></h2>
+
+            <button class="restart">Restart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
